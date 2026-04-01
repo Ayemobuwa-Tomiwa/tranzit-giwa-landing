@@ -55,13 +55,13 @@ export default function GiwaLanding() {
 
           <div className="flex justify-center items-center gap-2 mb-4">
 
-            <img src={tranzitLogo} className="h-8" />
+            <img src={tranzitLogo} className="h-16 rounded-full" />
 
             <span className="font-bold text-lg">
               ×
             </span>
 
-            <img src={giwaLogo} className="h-10" />
+            <img src={giwaLogo} className="h-16 rounded-full" />
 
           </div>
 
@@ -131,7 +131,7 @@ export default function GiwaLanding() {
               {showDiscount && (
 
                 <div className="absolute -top-2 right-1 bg-orange-500 text-white text-xs px-2 py-1 rounded-full shadow">
-                  ₦500 OFF
+                  Book Now!
                 </div>
 
               )}
