@@ -15,7 +15,7 @@ export default function GiwaLanding() {
 
   useEffect(() => {
 
-    fetch("http://localhost:5000/count")
+    fetch("https://tranzit-giwa-landing.onrender.com/count")
       .then(res => res.json())
       .then(data => {
 
